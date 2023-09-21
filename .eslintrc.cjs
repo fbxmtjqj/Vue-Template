@@ -22,6 +22,7 @@ module.exports = {
                 bracketSpacing: true,
                 arrowParens: 'avoid'
             }
-        ]
+        ],
+		'no-console': process.env.NODE_ENV === 'production' ? 'error' : 'off',
     }
 };
